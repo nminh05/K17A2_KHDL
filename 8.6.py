@@ -25,7 +25,8 @@ def tinh_cuoc_taxi_4_cho(distance,waiting_time):
         cuoc= cuoc_cho + cuoc_di_chuyen
     return cuoc, cuoc_di_chuyen, cuoc
 
-loai_xe = int(input("Nhập loại xe (4 chỗ - 1, 7 chỗ - 2): "))
+loai_xe = int(input("Nhập loại 1
+xe (4 chỗ - 1, 7 chỗ - 2): "))
 distance = float(input("Nhập số km đã đi: "))
 waiting_time = int(input("Nhập thời gian chờ (phút): "))
 
